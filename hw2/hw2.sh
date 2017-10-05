@@ -1,5 +1,3 @@
-"hw2.sh" 52L, 1569C written
-bsd1 [/u/cs/105/0516073] -lin0516073- cat hw2.sh
 #!/bin/sh
 
 
