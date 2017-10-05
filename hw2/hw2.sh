@@ -4,8 +4,8 @@ bsd1 [/u/cs/105/0516073] -lin0516073- cat hw2.sh
 
 
 input(){
-	ID=$(dialog --title "Student ID" --inputbox "Please input the student ID:"  10 40 --output-fd 1)
-	PW=$(dialog --title "PassWord" --insecure --passwordbox "Please input the Password:"  10 40 --output-fd 1)
+	ID=$(dialog --ascii-lines --title "Student ID" --inputbox "Please input the student ID:"  10 40 --output-fd 1)
+	PW=$(dialog --ascii-lines --title "PassWord" --insecure --passwordbox "Please input the Password:"  10 40 --output-fd 1)
     dialog --clear
 }
 #=========================================
@@ -32,7 +32,7 @@ allin(){
 	   		allin;
         ;;
 		*"login"*)
-			dialog --title "Worng ID or Worng PW" --msgbox "Worng ID or PW\nYou need to try again" 10 40;
+			dialog --ascii-lines --title "Worng ID or Worng PW" --msgbox "Worng ID or PW\nYou need to try again" 10 40;
 			input;
 			allin;
 		;;
