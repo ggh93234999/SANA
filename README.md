@@ -1,4 +1,4 @@
-#System Administration - Homework2
+# System Administration - Homework2
 
 ## Part I - One Line Parser
 
@@ -8,7 +8,7 @@ Login to NCTU portal and get achedule on course selection system with shell scri
 
 ###
 
-#Network Administration - Homework1 
+# Network Administration - Homework1 
 
 ## Part I - Web crawler 
 
